@@ -210,6 +210,8 @@
     bool wiredclient::CleanAllWired() {
         CheckCommandWithOk("REMOVE_NETWORK all");
         CheckCommandWithOk("DISABLE_NETWORK all");
+        CheckCommandWithOk("DISCONNECT");
+        CheckCommandWithOk("RECONNECT");
         return true;
     }
     bool wiredclient::AddWired(int & id) {
