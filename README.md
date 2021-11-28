@@ -11,5 +11,5 @@
 下面是在安卓端认证的基本流程
 ![image](https://github.com/tolzlz/dot1x-ConfigService/blob/main/%E6%97%A0%E6%A0%87%E9%A2%982.png)
 
-EAP-MD5认证，部分radius不支持，如radius服务器不返回MD5-challege，导致eap-md5加密错误。radius 服务器支持版本各有差异，请参考官网
+EAP-MD5认证，部分radius不支持，如radius服务器不返回MD5-Challenge，导致eap-md5加密错误从而导致认证失败。radius 服务器支持版本各有差异，请参考官网
 http://w1.fi/cgit/hostap/plain/wpa_supplicant/eap_testing.txt
